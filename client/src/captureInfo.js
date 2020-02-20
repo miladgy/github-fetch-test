@@ -19,7 +19,7 @@ const CaptureInfo = getUser => {
     if (e) {
       e.preventDefault();
     }
-    if (users.name) {
+    if (users.name && /^[a-z\d\s](?:[a-z\d\s]|-(?=[a-z\d\s])){0,38}$/i.test(users.name)) {
       const trimmedUser = users.name.replace(/\s/g, "").toLowerCase();
       getUser(trimmedUser);
       setIsSubmitting(false);
