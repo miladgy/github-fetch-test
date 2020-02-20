@@ -4,7 +4,7 @@ const validation = (username) => {
       errors.message = "You need to enter a username!";
     }
     if (/^[a-z\d\s](?:[a-z\d\s]|-(?=[a-z\d\s])){0,38}$/i.test(username) === false) {
-      errors.message = 'Username is invalid';
+      errors.message = 'Username is Invalid!';
     }
     return errors;
   };
