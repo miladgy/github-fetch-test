@@ -1,0 +1,13 @@
+.context {
+  justify-content: center;
+  color: #000;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.hidden {
+  display: none;
+}
