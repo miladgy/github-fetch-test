@@ -16,6 +16,10 @@ const Context = ({ props }) => {
   } = props;
   let items = [];
   for (let i = 0; i < reposNames.length; i++) {
+    if (reposLanguage[i] === null) {
+      reposLanguage[i] = "--"
+      console.log(reposLanguage[i])
+    }
     items.push(
       `name: ${reposNames[i]}, stars: ${reposStars[i]} and language: ${reposLanguage[i]}`
     );
