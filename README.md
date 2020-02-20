@@ -13,7 +13,7 @@ install dependencies by entering client and server directories and using the com
 npm i
 ```
 
-And run the client with and dev server using:
+And run the client and dev server using:
 
 ```
 npm start
