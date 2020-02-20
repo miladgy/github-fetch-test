@@ -23,4 +23,5 @@ Now you can enter a github username and the user's name, followers, repos' info 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+![licence](https://img.shields.io/badge/license-MIT-green)
 
