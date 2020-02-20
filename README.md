@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing dependencies
 
-install dependencies using:
+install dependencies by entering client and server directories and using the command below:
 
 ```
 npm i
